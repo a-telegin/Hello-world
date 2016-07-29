@@ -1,0 +1,23 @@
+class IdToToyName{
+	public static void main(String[] args) throws Exception{
+		int id = 3;
+		System.out.println(idToName(id));
+	}
+	static String idToName(int id){
+		String name = "";
+		if ( id == 0 ) {
+			name = "Car";
+			}
+		else if ( id == 1 ){
+			name = "Lego";
+		}
+		else if ( id == 2 ){
+			name = "Doll";
+		}
+		else if ( id == 3 ){
+			name = "Puzzle";
+		}
+		else throw new IllegalArgumentException("No such ID!");
+		return name; 
+	}
+}
