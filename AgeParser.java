@@ -8,7 +8,7 @@ public class AgeParser{
 		System.out.println(checkAge(Age));
 	}
 	static int checkAge(int Age){
-		if (Age<1 || Age>120) 
+		if (Age < 1 || Age > 120) 
 			throw new IllegalArgumentException("Age must not be lower than 1 and greater than 120");
 		return Age;
 	}
