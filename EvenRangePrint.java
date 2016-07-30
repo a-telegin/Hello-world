@@ -6,8 +6,7 @@ class EvenRangePrinter{
 	}
 	static void printEven(int first, int last){
 		int arrLength = 0;
-		if (first > last) { //blank
-		}
+		if (first > last) { //blank }
 		else if(first == last){
 			throw new IllegalArgumentException("First and last numbers are equal!");
 		}
@@ -23,7 +22,5 @@ class EvenRangePrinter{
 			}
 		}
 	}
-	static boolean isEven(int number){
-		return number%2 == 0;
-	}
+	static boolean isEven(int number) { return number%2 == 0; }
 }
