@@ -2,7 +2,7 @@ import java.util.Scanner;
 class NameToId{
 	public static void main(String[] args) throws Exception{
 		Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
+        	String name = sc.nextLine();
 		System.out.println(NameToId(name));
 	}
 	static int NameToId(String name){
